@@ -2,7 +2,9 @@
 
 This is a collection of Home Assistant add-ons that work with [rtl_433](https://github.com/merbanan/rtl_433).
 
-* [How to add this add-on repository to your Home Assistant install](https://home-assistant.io/hassio/installing_third_party_addons/)
+[![Open your Home Assistant instance and show the add app repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fpbkhrv%2Frtl_433-hass-addons)
+
+* [How to add this add-on repository to your Home Assistant install](https://www.home-assistant.io/common-tasks/os#installing-a-third-party-app-repository)
 * Use `https://github.com/pbkhrv/rtl_433-hass-addons` as the URL for the repository.
 
 ## Running the Development Version

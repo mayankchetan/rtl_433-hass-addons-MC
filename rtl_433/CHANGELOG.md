@@ -1,6 +1,18 @@
-## [0.6.1] - 2025-07-13
+# 0.7.1
 
-* MC Edit - Changes to handle rain sensor and point to correct rtl_433
+- MC fork: build rtl_433 from merbanan/rtl_433 master @ 91b2ebdb (2026-08-02)
+  instead of tag 25.12. Includes WS90 ambient pressure (pressure_hPa, #3491)
+  and uvi field rename (#3131, breaking for uv_index consumers).
+- Retired the mayankchetan/rtl_433 decoder fork — its WS90 buffer fix has
+  been upstream since 43758a38 (2024-10-01).
+- Merged upstream pbkhrv/rtl_433-hass-addons through 0.7.0.
+
+## [0.7.0] - 2026-05-14
+
+* Fix unbounded $1 in HEREDOC #230
+* Drop support for architectures Home Assistant has dropped
+* Update the stable addon to rtl_433 25.12
+* Drop support for architectures Home Assistant has dropped
 
 ## [0.6.0] - 2025-03-22
 

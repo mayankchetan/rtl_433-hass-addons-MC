@@ -22,11 +22,11 @@ WORKDIR /build
 
 FROM builder as rtl_433_builder
 
-RUN git clone https://github.com/mayankchetan/rtl_433
+RUN git clone https://github.com/merbanan/rtl_433
 WORKDIR ./rtl_433
 
 # Build a specific commit or tag.
-ARG rtl433GitRevision=master
+ARG rtl433GitRevision=91b2ebdb42e59798f98b4ebc192f137d2acbf66d
 RUN git checkout ${rtl433GitRevision}
 WORKDIR ./build
 RUN cmake ..
